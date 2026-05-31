@@ -11,7 +11,14 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.60.0",
+    "@types/json-schema": "^7.0.15",
     "@types/node": "^25.9.1",
+    "allure-playwright": "^3.9.0",
     "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "ajv": "^8.20.0",
+    "avj": "^0.0.0",
+    "base-framework": "file:base-framework-1.0.0.tgz"
   }
 }

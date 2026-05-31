@@ -12,12 +12,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "base-framework": "file:base-framework-1.0.0.tgz"
-  },
   "devDependencies": {
     "@playwright/test": "^1.60.0",
     "@types/node": "^25.9.1",
+    "allure-playwright": "^3.9.0",
+    "prettier": "^3.8.3",
     "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "base-framework": "file:base-framework-1.0.0.tgz"
   }
 }

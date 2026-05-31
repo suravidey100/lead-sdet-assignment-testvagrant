@@ -11,9 +11,21 @@
     "dist"
   ],
 
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "winston": "^3.17.0"
+  },
+
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.x"
+  },
+  
   "scripts": {
     "build": "tsc -p .",
 
     "pack-framework": "npm pack"
   }
+
 }
